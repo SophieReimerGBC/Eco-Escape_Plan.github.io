@@ -1,0 +1,171 @@
+
+<!-- The "Druk Condensed" typeface was designed by Berton Hasebe and published by Commercial Type. https://commercialtype.com/catalog/druk -->
+
+<!-- The "PP Editorial New" typeface was designed by Panos Vassiliou and published by Parachute Fonts. https://www.parachute.gr/typefaces/all-fonts/pp-editorial-new/ -->
+<!-- Copyright (c) 2023 by iskandar (https://codepen.io/iskadar/pen/zLQjLe)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Eco Escape Plan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="Tab_Image.png" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <nav>
+        <ul>
+          <li><a href="checklist.html">Checklist</a></li>
+          <li><a href="generalinfo.html">General Info</a></li>
+          <li><a href="tipsandtricks.html">Tips & Tricks</a></li>
+          <li><a href="comingsoon.html">How-To Guide</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="home-link-container">
+      <a href="index.html" class="home-link">E . E . P</a>
+    </div>
+  </header>
+  
+  
+<div class="center">
+    <h1>Discover the freedom of living off the grid with Eco Escape Plan</h1>
+</div>
+
+    
+<div class="imgcontainer1"> 
+  <img src="b&wCabin.png" alt="Black and white image of a cabin in the wilderness."> 
+</div> 
+
+  
+<div id='rssBlock'>
+  <p class="cnnContents">
+    <span class="marqueeStyle">&nbsp;ECO ESCAPE PLAN ECO ESCAPE PLAN ECO ESCAPE PLAN ECO ESCAPE PLAN ECO ESCAPE PLAN ECO ESCAPE PLAN&nbsp;</span>
+    <!-- duplicate above, change style to allow continuous scroll -->
+    <span class="marqueeStyle2">&nbsp;ECO ESCAPE PLAN ECO ESCAPE PLAN ECO ESCAPE PLAN ECO ESCAPE PLAN ECO ESCAPE PLAN ECO ESCAPE PLAN&nbsp;</span>
+  </p>
+</div>
+
+<style>
+ 
+    
+h1 {color: white;
+font-size: 150%;
+text-align: center;
+font-family: 'PPEditorialNew-Italic',serif;
+letter-spacing: 2px;}   
+    
+    
+img { 
+position: absolute; 
+display: inline-block;
+margin-top: 150px;
+max-width: 40%;
+height: auto;   
+z-index: 6; 
+left: 50%; /* Center the image horizontally */
+transform: translateX(-50%); /* Center it perfectly */} 
+ 
+    
+#rssBlock {
+left: 0px;
+height: 800px;
+background: #000000;
+position: absolute;
+width: 2070px;
+overflow: hidden;
+z-index: 5;}
+
+.cnnContents {
+width: 100%;
+padding-top: 0px;
+margin-top: -150px;
+margin-bottom: 150px;
+font-size: 50rem;
+white-space: nowrap;
+text-transform: uppercase;
+font-family: 'DrukCond-Super-Trial', sans-serif;
+color: white;
+z-index: 5;}
+
+.marqueeStyle {
+display: inline-block;
+animation-delay: 0s;
+-webkit-animation: scrolling-left1 250s linear infinite;
+animation: scrolling-left1 250s linear infinite;}
+
+.marqueeStyle2 {
+display: inline-block;
+-webkit-animation: scrolling-left2 250s linear infinite;
+animation: scrolling-left2 250s linear infinite;
+animation-delay: 0s;
+z-index: -1;}
+
+/* scrolling-left is continuous/repeatly text */
+
+@keyframes scrolling-left1 {
+    0% {
+      transform: translateX(0%);
+      -webkit-transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+    }
+  }
+
+@keyframes scrolling-left2 {
+    0% {
+      transform: translateX(0%);
+      -webkit-transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+    }
+  }
+
+@-webkit-keyframes scrolling-left1 {
+    200% {
+      -webkit-transform: translateX(100%);
+    }
+    100% {
+      -webkit-transform: translateX(-100%);
+    }
+  }
+
+@-webkit-keyframes scrolling-left2 {
+    200% {
+      -webkit-transform: translateX(100%);
+    }
+    100% {
+      -webkit-transform: translateX(-100%);
+    }
+  }
+    
+    
+</style>
+ 
+<div class="footer-container">
+    <footer> 
+      <nav>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="comingsoon.html">Communities</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,209 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+    overflow-y: scroll;
+  font-family: serif; /* Add serif font for body */
+}
+
+
+
+h2{color: black;
+font-size: 1.5rem;
+font-family: 'PPEditorialNew-Italic',serif;
+margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+header {
+  background-color: chartreuse;
+  color: black;
+  padding: 20px;
+  font-size: 150%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+font-family: 'PPEditorialNew-Regular',serif;
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: chartreuse;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+  .home-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    font-family: 'DrukCond-Super-Trial', sans-serif;
+    background-color: black;
+    padding: 1px;
+  }
+  
+  .home-link-container {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+      width: 200px;
+    z-index: 20;
+  }
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-family: 'PPEditorialNew-Regular',serif;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  font-size: 150%;
+  color: white;
+  font-family: 'PPEditorialNew-Regular',serif;
+    text-align: center;
+    z-index: 7;
+}
+
+.footer-container {
+  position: relative;
+  margin: 0 auto;
+  max-width: inherit;
+  text-align: center;
+  background-color: aqua;
+    z-index: 7;
+    
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+    color: white;
+    z-index: 7;
+}
+
+footer a {
+  color: white;
+}
+
+
+@font-face {
+  font-family: 'DrukCond-Super-Trial';
+  src: url('DrukCond-Super-Trial.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPEditorialNew-Regular';
+  src: url('PPEditorialNew-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPEditorialNew-Italic';
+  src: url('PPEditorialNew-Italic.otf') format('opentype');
+}
+
+
+
+div {
+  font-family: 'DrukCond-Super-Trial', sans-serif;
+}
+
+ 
+
+
+
+
+.checklist-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'PPEditorialNew-Regular', serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.checklist label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+
+.column1 {
+    column-width: 2.5in;
+    font-family: 'PPeditorialNew-Regular',serif;
+    column-gap: .2in;
+    column-count: 3;
+    margin-bottom: 10px;
+    margin-top: 10px;}
+
+
+
+.print-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+    font-family: 'PPEditorialNew-Regular',serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  background-color: chartreuse;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-content: center;
+justify-content: center;
+}
+
+.print-btn:hover {
+  background-color: black;
+    color: chartreuse;
+align-content: center;
+justify-content: center;
+}
+
+.custom-hr {
+  height: 3px; /* set the initial height of the line */
+    width: 260px;
+  background-color: black; /* set the color of the line */
+  margin: 10px 0; /* add some margin for spacing */
+    margin-left: 50px;
+}
+
